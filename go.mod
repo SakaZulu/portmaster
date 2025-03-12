@@ -1,8 +1,7 @@
 module github.com/safing/portmaster
 
 go 1.21.1
-
-toolchain go1.21.2
+toolchain go1.23.7
 
 require (
 	github.com/Xuanwo/go-locale v1.1.0
@@ -34,9 +33,9 @@ require (
 	github.com/umahmood/haversine v0.0.0-20151105152445-808ab04add26
 	github.com/vincent-petithory/dataurl v1.0.0
 	golang.org/x/exp v0.0.0-20231110203233-9a3e6036ecaa
-	golang.org/x/net v0.18.0
-	golang.org/x/sync v0.5.0
-	golang.org/x/sys v0.14.1-0.20231108175955-e4099bfacb8c
+	golang.org/x/net v0.36.0
+	golang.org/x/sync v0.11.0
+	golang.org/x/sys v0.30.0
 	gopkg.in/yaml.v3 v3.0.1
 	zombiezen.com/go/sqlite v0.13.1
 )
@@ -94,11 +93,11 @@ require (
 	github.com/yusufpapurcu/wmi v1.2.3 // indirect
 	github.com/zalando/go-keyring v0.2.3 // indirect
 	go.etcd.io/bbolt v1.3.8 // indirect
-	golang.org/x/crypto v0.15.0 // indirect
-	golang.org/x/mod v0.14.0 // indirect
-	golang.org/x/text v0.14.0 // indirect
+	golang.org/x/crypto v0.35.0 // indirect
+	golang.org/x/mod v0.17.0 // indirect
+	golang.org/x/text v0.22.0 // indirect
 	golang.org/x/time v0.4.0 // indirect
-	golang.org/x/tools v0.15.0 // indirect
+	golang.org/x/tools v0.21.1-0.20240508182429-e35e4ccd0d2d // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gvisor.dev/gvisor v0.0.0-20231122063954-e54bfde79278 // indirect
 	modernc.org/libc v1.34.9 // indirect
